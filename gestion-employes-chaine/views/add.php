@@ -24,15 +24,18 @@ if (isset($_POST['submit'])) {
 						</div>
 						<div class="form-group">
 							<label for="mat">RIB*</label>
-							<input type="text" name="mat" class="form-control" placeholder="RIB">
+							<input type="text" name="mat" class="form-control" placeholder="Matricule">
 						</div>
 						<div class="form-group">
-							<label for="depart">Role of User*</label>
+							<label for="depart">Agenncy*</label>
 							<input type="text" name="depart" class="form-control" placeholder="Département">
 						</div>
-					
 						<div class="form-group">
-							<label for="date_emb">Date Embauche*</label>
+							<label for="poste">ville*</label>
+							<input type="text" name="poste" class="form-control" placeholder="Poste">
+						</div>
+						<div class="form-group">
+							<label for="date_emb">Date *</label>
 							<input type="date" name="date_emb" class="form-control">
 						</div>
 						<div class="form-group">
