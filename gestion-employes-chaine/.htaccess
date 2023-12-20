@@ -2,7 +2,7 @@ Options All -Indexes
 
 RewriteEngine On
 
-RewriteBase /cihbank/gestion-employes-chaine/
+RewriteBase /bank_poo/gestion-employes-chaine/
 
 RewriteRule ^([-a-zA-Z0-9]+)$ index.php?page=$1
 

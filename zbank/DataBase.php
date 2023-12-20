@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', '', 'bankgeneral');
+$conn = new mysqli('localhost', 'root', '', 'banky');
 
 
 

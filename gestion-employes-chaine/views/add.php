@@ -23,29 +23,26 @@ if (isset($_POST['submit'])) {
 							<input type="text" name="prenom" class="form-control" placeholder="Prénom">
 						</div>
 						<div class="form-group">
-							<label for="mat">Matricule*</label>
-							<input type="text" name="mat" class="form-control" placeholder="Matricule">
+							<label for="mat">RIB*</label>
+							<input type="text" name="mat" class="form-control" placeholder="RIB">
 						</div>
 						<div class="form-group">
-							<label for="depart">Département*</label>
+							<label for="depart">Role of User*</label>
 							<input type="text" name="depart" class="form-control" placeholder="Département">
 						</div>
-						<div class="form-group">
-							<label for="poste">Poste*</label>
-							<input type="text" name="poste" class="form-control" placeholder="Poste">
-						</div>
+					
 						<div class="form-group">
 							<label for="date_emb">Date Embauche*</label>
 							<input type="date" name="date_emb" class="form-control">
 						</div>
 						<div class="form-group">
 							<select class="form-control" name="statut">
-								<option value="1">Active</option>
-								<option value="0">Résilié</option>
+								<option value="1">Admin</option>
+								<option value="0">Client</option>
 							</select>
 						</div>
 						<div class="form-group">
-							<button type="submit" class="btn btn-primary" name="submit">Valider</button>
+							<button type="submit" class="btn btn-primary" name="submit">Ajouter</button>
 						</div>
 					</form>
 				</div>
